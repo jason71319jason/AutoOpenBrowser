@@ -1,0 +1,17 @@
+# installer
+installer.iss
+
+# binary
+*.exe
+*.dll
+
+# poetry
+poetry.lock
+
+# pyinstaller
+*.spec
+build/
+dist/
+
+# innosetup
+Output/

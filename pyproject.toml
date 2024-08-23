@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "daemon"
+version = "0.1.0"
+description = ""
+authors = ["Jason Hsieh <jason71319jason@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+pywin32 = "^306"
+tk = "^0.1.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
